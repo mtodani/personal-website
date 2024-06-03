@@ -6,3 +6,7 @@
 ## 使用方法
 ### ローカルでの閲覧
 ブラウザで `index.html` を開きます。
+
+### 公開URL
+この自己紹介サイトは以下のURLで公開しています。  
+https://mtodani.github.io/personal-website/
