@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+body {
+    background-color: #e1e1e1;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+
+.header-inner {
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+
+
+}
+
+.name {
+    margin-right: auto;
+}
+
+
+.gnavi-ul li {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.gnavi-ul a:hover {
+    color: rgb(3, 22, 99);
+}
+
+
+.gnavi-ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+
+
+.index-section img{
+    width: 700px;
+    /* float: left; */
+
+}
+
+.profile {
+    float: left;
+}
+
+/* .index-section {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  } */
+
+
+
+
+
+
+.intro h2 {
+    padding-top: 80px;
+}
+
+.dummy {
+    clear: both;
+}
+
+
+/* hobby */
+
+.camera h2 {
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+}
+
+
+
+.ichigan figure {
+    /* display: flex; */
+    float: left;
+    
+}
+
+
+.ichigan {
+    width: 1240px;
+    height: 557px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+.ichigan img {
+    height: 500px;
+}
+
+.map {
+    margin: 50px;
+    text-align: center;
+}
+
+/* /hobby */
+
+
+
+footer {
+
+    border-top: solid 1px #3c3c3c;
+}
+
+
+.footer-inner {
+    /* background-color: #523641; */
+    display: flex;
+    align-items: center;
+}
+
+#footer_nav {
+    margin-right: auto;
+}
+
+.footer_nav-ul{
+    display: flex;
+}
+
+.footer_nav-ul li {
+
+    margin-left: 30px;
+
+}
+
+#footer_nav ul {
+   
+    list-style: none;
+}
+
+footer small {
+    margin-right: 50px;
+}
+
+
+
+
+
+@media screen and (max-width : 767px){
+
+    .gnavi-ul li {
+        width: 60px;
+    }
+
+   
+
+    .index-section img {
+        max-width: 100%;
+
+    }
+
+    /* .camera {
+        width: 100%;
+    }
+     */
+
+    .intro {
+        text-align: center;
+    }
+
+    .map {
+        text-align: center;
+        
+    }
+    .map iframe {
+        width: auto;
+        height: auto;
+
+    }
+
+    .ichigan {
+        text-align: center;
+        /* margin: 0; */
+        width: auto; 
+        height: auto;
+    
+    }
+    
+    .ichigan figure {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ichigan figure img {
+        text-align: center;
+
+    }
+
+    footer small {
+        margin: auto;
+    }
+
+    /* .gnavi-ul li a {
+        width: 8em;
+    } */
+
+  
+}
